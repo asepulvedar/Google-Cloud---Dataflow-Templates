@@ -16,6 +16,16 @@ This directory contains the scripts and pipeline for transferring data between J
 - **jdbc-to-jdbc.py**: Apache Beam pipeline for transferring data between two JDBC sources.
 - **execute-dataflow-pipeline.sh**: Shell script to execute the Dataflow pipeline.
 
+### Create-A-Template
+
+This directory contains scripts and templates to create reusable Dataflow templates.
+
+- `jdbctojdbc`: Directory containing the JDBC-to-JDBC template.
+  - `Jdbctojdbc`: Package containing the template code.
+    - `__init__.py`: Initialization script for the package.
+    - `main.py`: Main script to define the Apache Beam pipeline for JDBC-to-JDBC data transfer.
+- `compile_template.sh`: Shell script to compile the Dataflow template.
+
 ## Prerequisites
 
 Before running these pipelines, ensure you have the following:

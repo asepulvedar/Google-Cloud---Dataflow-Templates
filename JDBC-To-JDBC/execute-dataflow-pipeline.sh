@@ -5,5 +5,5 @@ python3 jdbc-to-jdbc.py \
 --pipeline_name=jdbc-to-jdbc-demo \
 --runner=DataflowRunner \
 --staging_location=gs://BUCKETNAME/staging \
---temp_location=gs://BUCKETNAME/temp \
+--temp_location=gs://BUCKET/temp \
 --job_name=jdbc-to-jdbc-demo
